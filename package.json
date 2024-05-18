@@ -1,6 +1,6 @@
 {
-  "name": "@types/pac",
-  "version": "1.0.0",
+  "name": "types-pac",
+  "version": "1.0.1",
   "description": "Proxy Auto-Configuration (PAC) file definition",
   "keywords": [
     "types",
