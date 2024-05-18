@@ -1,0 +1,29 @@
+{
+  "name": "@types/pac",
+  "version": "1.0.0",
+  "description": "Proxy Auto-Configuration (PAC) file definition",
+  "keywords": [
+    "types",
+    "pac"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "homepage": "https://github.com/dongchengjie/pac/",
+  "bugs": {
+    "url": "https://github.com/dongchengjie/pac/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dongchengjie/pac"
+  },
+  "scripts": {
+    "build": "node ./bundle.mjs",
+    "test": "tsc --noEmit pac.ts"
+  },
+  "devDependencies": {
+    "dts-bundle": "^0.7.3",
+    "prettier": "^3.2.5"
+  }
+}
