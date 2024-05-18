@@ -9,17 +9,18 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
-  "homepage": "https://github.com/dongchengjie/pac/",
+  "homepage": "https://github.com/dongchengjie/types-pac/",
   "bugs": {
-    "url": "https://github.com/dongchengjie/pac/issues"
+    "url": "https://github.com/dongchengjie/types-pac/issues"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dongchengjie/pac"
+    "url": "https://github.com/dongchengjie/types-pac"
   },
   "scripts": {
-    "build": "node ./bundle.mjs",
+    "dev": "",
+    "build": "node ./scripts/bundle.mjs",
     "test": "tsc --noEmit pac.ts"
   },
   "devDependencies": {
