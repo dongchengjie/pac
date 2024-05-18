@@ -1,5 +1,6 @@
 .gitattributes
 .github
-.vscode
 node_modules
 src
+bundle.mjs
+index.d.ts
