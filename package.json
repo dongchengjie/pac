@@ -19,7 +19,7 @@
     "url": "https://github.com/dongchengjie/types-pac"
   },
   "scripts": {
-    "build": "node ./scripts/bundle.mjs",
+    "build": "node ./bundle.mjs",
     "test": "tsc --noEmit pac.ts"
   },
   "devDependencies": {
