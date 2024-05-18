@@ -1,6 +1,6 @@
 {
   "name": "types-pac",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Proxy Auto-Configuration (PAC) file definition",
   "keywords": [
     "types",
@@ -19,7 +19,6 @@
     "url": "https://github.com/dongchengjie/types-pac"
   },
   "scripts": {
-    "dev": "",
     "build": "node ./scripts/bundle.mjs",
     "test": "tsc --noEmit pac.ts"
   },
